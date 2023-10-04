@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Croissant+One & family= Dancing+Script:wght@400;600 & family= Playfair+Display & display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@400;600&family=Pacifico&family=Playfair+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#888,#ddd9ce);
+    background-repeat: no-repeat;
+}
+.Imagem{
+    display: flex;
+    justify-content: center;
+}
+.Imagem img{
+    display: flex;
+    justify-content: center;
+}
+.nome{
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    font-family: 'Dancing Script', cursive;
+}
+
+.icon, .email{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+    margin: 3px;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    cursor: pointer;}
+
+
+    .icon i, .email i{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 22px;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: rgb(163, 160, 157);
+        color: rgba(232, 202, 179);}
+
+
+        
+        .icon span a{
+            list-style: nome;
+            float: right;
+            margin-right: 23px;
+            font-size: 17px;
+            line-height: 35px; 
+            font-family: 'oswald' ,sans-serif;
+            font-weight: 100;
+            color:#64574d ;
+        }
+
+        .icon:hover{
+            width: 125px;
+            background-color: rgb(163, 160, 157);
+            border-radius: 20px;}
+.text{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    border-radius: 24px;
+    font-size: 16px;
+    margin-top: 35px;
+    width: 500px;
+    height: 150px;
+    color: rgb(238, 232,227);
+    background: rgb(163, 160, 157);
+    box-shadow: 0 3px 3px rgba( 0, 0, 1);
+    cursor: pointer;
+    font-family: 'Croissant One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Playfair Display', serif;
+    }
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-weight: 600;
+    color: blueviolet;
+    font-family: 'Croissant One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+}
+.item{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-decoration:none;
+    justify-content: center;
+    font-size: 22px;
+    width: 570px;
+    height: 60px;
+    margin-bottom: 7px;
+    border-radius: 50px;
+    border: 1px solid rgba(232, 202, 179,);
+    color: rgba( 232, 202, 179);
+    background: rgb(163 , 160, 157);
+    box-shadow: 05px 5px rgb(0, 0, .1);
+    cursor: pointer;
+    
+}
+
+.item{
+    transition: 0,5s;
+    background-color: blueviolet;
+    text-decoration:none;
+}
+
+.footer{
+    font-size: 37px;
+    display:flex;
+    padding: 50px;
+    margin-top: 50px;
+    color: blueviolet;
+    
+}
+
+.contato-form input{
+    width:100% ;
+    padding: 8px 0px;
+    margin: 8px 0px;
+}
+.contato-form input [type=text] {
+    height: 200px;
+
+}
+button{
+    background-color:blueviolet;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+
+
+#movie{
+    padding: 1rem;
+    margin: auto;
+    display: none;
+}
+#movie.active{
+    display: block;
+}
+@media (max-width: 500px) {
+    .Imagem img{
+        width: 130px;
+        border-radius: 200px;
+        margin-top: 30px;
+    }
+    .nome{
+        font-size: 26px;
+
+    }
+    .h1{
+        margin-top: 35px;
+        font-size: 24px;
+    }
+    .text{
+        padding: 1.4rem 1.1rem;
+        width: 244px;
+        height: 200px;
+        margin-top: 30px;
+    }
+    #movie{
+        width: 270px;
+        height: 160px;
+    }
+    .item{
+        height: 40px;
+        width: 120px;
+    }
+    .icon, .email{
+        height: 25px;
+        width: 25px;
+        border-radius: 30px;
+    }
+.icon i, .email{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 30px;
+}
+.icon span{
+    margin-right: 43px;
+    font-weight: 100;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+}
+@media (max-width: 700px){
+    .imagem img{
+        width: 150px;
+        border-radius: 200px;
+        margin-top: 30px;
+    }
+    .text{
+        width: 290px;
+
+    }
+    .item{
+        width: 350px;
+        
+    }
+    #movie{
+        width: 330px;
+    }
+
+}
+    
+    
+
